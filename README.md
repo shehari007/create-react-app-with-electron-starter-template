@@ -37,10 +37,43 @@ npm run electron:start
 
 ## Build & Deploy Information
 
-You can see the package.json file for build commands, for windows its:
+In package.json file all commands are preloaded
+
+## For Windows
 
 ```bash
 npm run electron:package:win
 ```
 
 This command will build and generate a NSIS .exe setup file with generated application, thats it install and share the app with others!
+
+## For Linux
+
+```bash
+npm run electron:package:linux
+```
+This command will build and generate a .deb file with generated application, thats it install and share the app with others!
+
+## For Mac
+
+```bash
+npm run electron:package:mac
+```
+This command will build and generate a .dmg file with generated application, thats it install and share the app with others!
+
+## For Website
+
+```bash
+npm run build
+```
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Feedback
+
+If you have any feedback, please reach out at shehariyar@gmail.com
+dont't forget to give us a star if you like this project. ❤️
