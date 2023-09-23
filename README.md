@@ -1,6 +1,7 @@
 # About Template
 
 A complete starter template with all the configurations of electron (electron.js, preloader, CSP) with create-react-app application for developing desktop applications in a breeze.
+This template is based on detailed instruction on this blog <a href="https://mmazzarolo.com/blog/2021-08-12-building-an-electron-application-using-create-react-app/">View Blog Here</a>, This template only focuses on ready stock create-react-app to start with for creating apps and website in a single framework.
 
 # Advantages of this Basic Template
 
