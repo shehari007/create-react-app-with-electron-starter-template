@@ -3,8 +3,15 @@
 A complete starter template with all the configurations of electron (electron.js, preloader, CSP) with create-react-app application for developing desktop applications in a breeze.
 This template is based on detailed instruction on this blog <a href="https://mmazzarolo.com/blog/2021-08-12-building-an-electron-application-using-create-react-app/">View Blog Here</a>, This template only focuses on ready stock create-react-app to start with for creating apps and website in a single framework.
 
-# Advantages of this Basic Template
+# Changelog (20/02/2024)
 
+- Package Dependencies and DevDependencies are updated to latest versions.
+- Electron ^29.0.0 (updated)
+- Fixed @babel warning
+- Node >=^20.10.0 (Tested & Working Fine)
+
+# Advantages of this Basic Template
+ 
 - Stock create-react-app template to work with electron integerated quick and easy start.
 - Package json file updated with all the required scripts and build commands for electron no need to modify.
 - electron.js & preloader.js are loaded with all the recommended secure steps e.g (CSP enabled in index.html, nodeIntegration is disabled, contentIsolation is enabled). You can work on it without worrying about XSS injection and other security issues.
